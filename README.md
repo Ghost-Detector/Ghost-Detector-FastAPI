@@ -1,7 +1,7 @@
 # Ghost-Detector-FastAPI
 
 ## 개요
-메인 서버인 스프링 서버에서의 요청에 따라 작성글을 바탕으로 MBTI분석 후 결과를 스프링 서버에 반환한다.
+메인 서버인 cloud9 서버에서의 요청에 따라 주소지를 바탕으로 귀신 존재 확률을 분석 후 결과를 FE에 반환한다.
 
 Front End: <https://github.com/Ghost-Detector/Ghost-Detector-FE>
 
