@@ -21,7 +21,7 @@ Front End: <https://github.com/Ghost-Detector/Ghost-Detector-FE>
 
 사망률 : https://gsis.kwdi.re.kr/statHtml/statHtml.do?orgId=338&tblId=DT_2FB0311R&conn_path=I2
 
-해당 데이터 셋은 공공데이터이며, 타입변수에 맞게 필요한 정보만 수정하여 사용되었다. 
+해당 데이터셋은 공공데이터이며, 타입변수에 맞게 필요한 정보만 수정하여 사용되었다. 
 
 ### 2. 전처리 과정
 2-1. 각 데이터셋에 카운트 열 추가
