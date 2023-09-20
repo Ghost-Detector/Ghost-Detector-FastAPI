@@ -1,7 +1,7 @@
 # Ghost-Detector-FastAPI
 
 ## 개요
-FE 요청에 따라 주소지를 바탕으로 귀신 존재 확률을 분석 후 결과를 FE에 반환한다.
+메인 서버인 ec2 서버 FE 요청에 따라 주소지를 바탕으로 귀신 존재 확률을 분석 후 결과를 ec2 서버 FE에 반환한다.
 
 Front End: <https://github.com/Ghost-Detector/Ghost-Detector-FE>
 
@@ -24,6 +24,14 @@ Front End: <https://github.com/Ghost-Detector/Ghost-Detector-FE>
 해당 데이터셋은 공공데이터이며, 타입변수에 맞게 필요한 정보만 수정하여 사용되었다. 
 
 ### 2. 전처리 과정
+2-0. 데이터 로드
+
+- s3 버킷에서 4가지 데이터셋 로드
+  - closed_school.csv
+  - closed_house.csv
+  - memorial_park.csv
+  - mortality.csv
+
 2-1. 각 데이터셋에 카운트 열 추가
 
 - 같은 주소에 겹치는 존재 확률 근거를 카운트 하기 위함
